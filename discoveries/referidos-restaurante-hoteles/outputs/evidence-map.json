@@ -1,0 +1,111 @@
+{
+  "personas": [
+    {
+      "name": "Cajero / Personal operativo",
+      "role": "cajero_restaurante",
+      "primary": true
+    },
+    {
+      "name": "Recepcionista de hotel",
+      "role": "recepcionista_hotel",
+      "primary": true
+    },
+    {
+      "name": "Administrador del restaurante",
+      "role": "administrador_restaurante",
+      "primary": true
+    },
+    {
+      "name": "Huésped / Turista",
+      "role": "huesped",
+      "primary": false
+    }
+  ],
+  "pains": [
+    {
+      "id": "olvido-registro-referido",
+      "source": "cajero-restaurante.md",
+      "persona": "Cajero / Personal operativo"
+    },
+    {
+      "id": "errores-registro-manual",
+      "source": "cajero-restaurante.md",
+      "persona": "Cajero / Personal operativo"
+    },
+    {
+      "id": "impacto-operativo-alta-demanda",
+      "source": "cajero-restaurante.md",
+      "persona": "Cajero / Personal operativo"
+    },
+    {
+      "id": "perdida-informacion-post-cierre",
+      "source": "cajero-restaurante.md",
+      "persona": "Cajero / Personal operativo"
+    },
+    {
+      "id": "sin-vista-referidos-cierre",
+      "source": "cajero-restaurante.md",
+      "persona": "Cajero / Personal operativo"
+    },
+    {
+      "id": "recomendaciones-sin-seguimiento",
+      "source": "recepcionista-hotel.md",
+      "persona": "Recepcionista de hotel"
+    },
+    {
+      "id": "hotel-no-sabe-si-huesped-visito",
+      "source": "recepcionista-hotel.md",
+      "persona": "Recepcionista de hotel"
+    },
+    {
+      "id": "comision-poco-clara",
+      "source": "recepcionista-hotel.md",
+      "persona": "Recepcionista de hotel"
+    },
+    {
+      "id": "sistema-lento-complicado-barrera",
+      "source": "recepcionista-hotel.md",
+      "persona": "Recepcionista de hotel"
+    },
+    {
+      "id": "riesgo-percepcion-interesada",
+      "source": "recepcionista-hotel.md",
+      "persona": "Recepcionista de hotel"
+    },
+    {
+      "id": "falta-trazabilidad-referidos",
+      "source": "administrador-restaurante.md",
+      "persona": "Administrador del restaurante"
+    },
+    {
+      "id": "calculo-comisiones-impreciso",
+      "source": "administrador-restaurante.md",
+      "persona": "Administrador del restaurante"
+    },
+    {
+      "id": "dependencia-memoria-personal",
+      "source": "administrador-restaurante.md",
+      "persona": "Administrador del restaurante"
+    },
+    {
+      "id": "riesgo-reclamos-hoteles",
+      "source": "administrador-restaurante.md",
+      "persona": "Administrador del restaurante"
+    },
+    {
+      "id": "sin-visibilidad-alianzas",
+      "source": "administrador-restaurante.md",
+      "persona": "Administrador del restaurante"
+    },
+    {
+      "id": "datos-personales-incomodos",
+      "source": "recepcionista-hotel.md",
+      "persona": "Huésped / Turista"
+    },
+    {
+      "id": "percepcion-recomendacion-interesada",
+      "source": "recepcionista-hotel.md",
+      "persona": "Huésped / Turista"
+    }
+  ]
+}
